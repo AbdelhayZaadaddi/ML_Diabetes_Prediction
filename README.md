@@ -44,23 +44,23 @@ The classes are **strongly imbalanced**, so this needs to be handled during mode
 
 ## Exploratory data analysis
 
-The full analysis is in [EDA_BRFSS_2015.ipynb](EDA_BRFSS_2015.ipynb). Main findings:
+The full analysis is in [EDA_BRFSS_2015.ipynb](BRFSS_2015/EDA_BRFSS_2015.ipynb). Main findings:
 
 **Distribution of key categorical variables**, including the diabetes target:
 
-![Categorical variables](images/categorical_variables.png)
+![Categorical variables](BRFSS_2015/images/categorical_variables.png)
 
 **BMI is higher for diabetic respondents**, and high blood pressure increases steadily with age:
 
-![BMI by diabetes status and high blood pressure by age](images/bmi_diabetes_bp.png)
+![BMI by diabetes status and high blood pressure by age](BRFSS_2015/images/bmi_diabetes_bp.png)
 
 **Correlations between health indicators:**
 
-![Correlation heatmap](images/correlation_heatmap.png)
+![Correlation heatmap](BRFSS_2015/images/correlation_heatmap.png)
 
 **The survey leans toward older adults:**
 
-![Age distribution](images/age_distribution.png)
+![Age distribution](BRFSS_2015/images/age_distribution.png)
 
 ### Data quality notes
 
@@ -71,4 +71,4 @@ The full analysis is in [EDA_BRFSS_2015.ipynb](EDA_BRFSS_2015.ipynb). Main findi
 
 ## Getting the data
 
-Download the 2015 BRFSS data from the [CDC website](https://www.cdc.gov/brfss/annual_data/annual_2015.html) and save it as `2015.csv` in the project root. The file is excluded from Git by [.gitignore](.gitignore).
+Download the 2015 BRFSS data from the [CDC website](https://www.cdc.gov/brfss/annual_data/annual_2015.html) and save it as `2015.csv` in the `BRFSS_2015/` folder. The file is excluded from Git by [.gitignore](.gitignore).
